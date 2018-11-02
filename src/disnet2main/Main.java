@@ -7,5 +7,6 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(new Nether2MainEvent(),this);
+        Bukkit.getPluginManager().registerEvents(new DisableWorldCalc(),this);
     }
 }
